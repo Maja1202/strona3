@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: sans-serif;
   background-color: #EFF2E4;
-  color: #ABB5A1;
+  color: #6d7863ff;
 }
 
 header nav {
@@ -55,7 +55,7 @@ footer {
   text-align: center;
   padding: 1em;
   background-color: white;
-  color: #ABB5A1;
+  color: #6d7863ff;
   font-weight: bold;
 }
 
@@ -71,7 +71,7 @@ footer {
 }
 
 body {
-    color: #333; /* ciemniejszy kolor czcionki */
+    color: #333; /* ciemniejszy kolor */
 }
 
 .large-centered-image {
