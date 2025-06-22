@@ -89,33 +89,35 @@ body {
 }
 
 .contact-form {
-    max-width: 700px;
+    max-width: 1000px;        /* zwiększona maksymalna szerokość */
+    width: 90%;               /* zajmuje 90% szerokości okna */
     margin: 2rem auto;
-    padding: 2rem;
+    padding: 2.5rem;          /* trochę więcej przestrzeni wewnątrz */
     background-color: #f7f7f7;
     border-radius: 12px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 120%;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    width: 100%;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 1rem;
+    font-size: 1.1rem;        /* lekko powiększona czcionka */
 }
 
 .contact-form button {
-    padding: 1rem 2rem;
-    font-size: 1rem;
+    padding: 1.2rem 2.5rem;
+    font-size: 1.1rem;
     background-color: #abb5a1;
     border: none;
     color: white;
     border-radius: 8px;
     cursor: pointer;
 }
+
 
 .contact-form button:hover {
     background-color: #98a48f;
